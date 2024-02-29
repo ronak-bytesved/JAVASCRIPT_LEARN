@@ -5,7 +5,7 @@
 
 // // note : string return a new string they dont modify it
 
-// // string method
+//  string method
 
 // let str = "hello ronak prajapati";
 // console.log(str.length);//to find length of string
@@ -14,17 +14,17 @@
 // console.log(str.charAt(-2)); //nagetive index does not take
 
 
-// // extracting parts of string
+//  extracting parts of string
 // let str2 = "hey ronak prajapati you are good developer";
 
 // console.log(str2.slice(2,8));//to get particular part of string
 // console.log(str2.slice(-5));//nagetive value is taken
 
-// console.log(str2.substring(4,12));
+// console.log(str2.substring(4,12));// it is similar to slice
 
-// console.log(str2.substr(12,5));//the second para is length
+// console.log(str2.substr(12,5));//the second parameter is length
 
-// // concat the string ,merge the string
+//concat the string ,merge the string
 // let x = str.concat(" " + str2);
 // console.log(x);
 
@@ -59,3 +59,9 @@ let str = "hello ronak prajapati you are genius r k  r k r k r k";
 
 // console.log(str.search('ronak'));
 console.log(str.match(/k/g));
+
+let str2 = "   hello ronak  ";
+
+let t = str2.trim();
+console.log(t);
+// console.log(str2);

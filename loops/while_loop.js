@@ -5,16 +5,26 @@
 //     p++;
 // }
 
+
+
+// let  p = ["ronak","tejash","yes","hello","you"];
+// let i = 0;
+// let text = ""
+// while(p[i]){
+    // text += p[i] + "\n";
+    // i++;
+// }
+// console.log(text + " ");
+// 
+
 // do while loop
 
-let  p = ["ronak","tejash","yes","hello","you"];
+// it will print atleast one time if the condition is false
 let i = 0;
-let text = ""
-while(p[i]){
-    text += p[i] + "\n";
+do{
+    console.log("hello world");
     i++;
-}
-console.log(text + " ");
+}while(i<0);
 
 
 // do{
